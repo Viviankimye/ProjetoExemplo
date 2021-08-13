@@ -1,0 +1,17 @@
+staging:
+  url_api: https://api.altu.com.br/ajudePequeno-staging/
+  tempo: 60
+
+dev:
+  url_api: https://api.altu.com.br/ajudePequeno-dev/
+  tempo: 60
+
+hom:
+  url_api: https://api.altu.com.br/ajudePequeno-hom/
+  tempo: 60
+
+prod:
+  url_api: https://api.altu.com.br/ajudePequeno-prod/
+  tempo: 60
+
+endpoint:

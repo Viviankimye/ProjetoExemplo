@@ -1,0 +1,4 @@
+default: --no-source --color --expand --format pretty --format json --out=data/reports/report.json
+aio: --no-source --color --format pretty -f ReportPortal::Cucumber::Formatter -out=data/reports/report.txt --format pretty --expand --format json --out=data/reports/report.json
+aio2: --no-source --color --format pretty -f ReportPortal::Cucumber::Formatter -out=output/reports/report.txt --format pretty --expand --format json --out=output/reports/report.json
+# --format html $--out=Teste<%= Time.now.strftime('%HH%MM%SS') %>.html

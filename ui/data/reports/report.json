@@ -1,0 +1,266 @@
+[
+  {
+    "uri": "features/inicio.feature",
+    "id": "realizar-os-testes-de-primero-contato-com-do-usuario,-relacionado-a-arvore-de-incio.",
+    "keyword": "Funcionalidade",
+    "name": "Realizar os testes de primero contato com do usuario, relacionado a arvore de incio.",
+    "description": "",
+    "line": 5,
+    "tags": [
+      {
+        "name": "@inicio",
+        "line": 4
+      }
+    ],
+    "comments": [
+      {
+        "value": "# encode: UTF-8",
+        "line": 2
+      }
+    ],
+    "elements": [
+      {
+        "id": "realizar-os-testes-de-primero-contato-com-do-usuario,-relacionado-a-arvore-de-incio.;validar-o-cenario-de-selecionar-parceiras,-receber-o-e-mail-de-contato-com-sucesso",
+        "keyword": "Cenario",
+        "name": "validar o cenario de selecionar parceiras, receber o e-mail de contato com sucesso",
+        "description": "",
+        "line": 8,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@inicio",
+            "line": 4
+          },
+          {
+            "name": "@inicio_1",
+            "line": 7
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30800
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30300
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4982387400
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30500
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que entrei no chatbot",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/step_inicio.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6411814700
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "seleciono a opcao 'Parcerias'",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/step_inicio.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1521113900
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "valido apresentar um e-mail de contato",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/step_inicio.rb:12"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Invalid argument @ rb_sysopen - c:/Vivian/Projeto/Projeto-Exemplo/ui/data/reports/evidencias/email de contato.png (Errno::EINVAL)\n./features/support/pages/Comum.rb:114:in `screenshots'\n./features/step_definitions/step_inicio.rb:14:in `\"valido apresentar um e-mail de contato\"'\nfeatures/inicio.feature:12:in `Entao valido apresentar um e-mail de contato'",
+              "duration": 4475637400
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3150915800
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122772600
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-os-testes-de-primero-contato-com-do-usuario,-relacionado-a-arvore-de-incio.;validar-a-transferencia-para-cadastro-de-usuario,-ao-selecionar-a-opcao-sobre-o-meu-negocio",
+        "keyword": "Cenario",
+        "name": "validar a transferencia para cadastro de usuario, ao selecionar a opcao sobre o meu negocio",
+        "description": "",
+        "line": 15,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@inicio",
+            "line": 4
+          },
+          {
+            "name": "@inicio_2",
+            "line": 14
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32200
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1608334200
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31200
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que entrei no chatbot",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/step_inicio.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5537515700
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "seleciono a opcao 'Sobre meu negócio'",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/step_inicio.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1410386400
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "selecionoa opcao de 'Cadastrar minha empresa' na pergunta o que deseja fazer",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/step_inicio.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1518695700
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "valido que fui direcionado para o fluxo de cadastro do usuario",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/step_inicio.rb:23"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "expected to find css \"div[class='ic-select-header']\" but there were no matches (Capybara::ExpectationNotMet)\n./features/support/pages/Comum.rb:50:in `titulo_existe'\n./features/step_definitions/step_inicio.rb:24:in `\"valido que fui direcionado para o fluxo de cadastro do usuario\"'\nfeatures/inicio.feature:19:in `Entao valido que fui direcionado para o fluxo de cadastro do usuario'",
+              "duration": 30012042200
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3194876800
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90976000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

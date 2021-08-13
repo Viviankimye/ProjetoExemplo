@@ -1,0 +1,6 @@
+#colocar o local storage de seu whatsapp, no console do whatsapp web(F12), com o comando abaixo:
+# copy(Object.keys(localStorage).map(key => ({
+#     [key]: localStorage.getItem(key)
+# })));
+
+local_storage: '' 

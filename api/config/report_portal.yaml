@@ -1,0 +1,7 @@
+uuid: a3961424-70ab-45ff-9e33-b1c76b54567b
+endpoint: http://reportportal.altu.cc:8080/api/v1
+launch: ajude_api
+project: ajude_pequeno
+description: Cenarios de Teste da api do ajude o pequeno
+tags: [Ajude, Api]
+formatter_modes: [group_by_folder]

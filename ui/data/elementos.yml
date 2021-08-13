@@ -1,0 +1,29 @@
+################ Web ####################
+
+txt_whats: "div[class='msg']"
+label_option: "div[class='ic-option']"
+box_text: "input[title='Digite uma mensagem']"
+btn_enviar: "button[class='btn-send']"
+logo_ajude_pequeno: "a[class='ir']"
+title_text: "div[class='ic-select-header']"
+btn_pesquisa: "a[class='qr-btn']"
+
+
+################ Whats ###################
+
+conversa_whats: div[class='_1dB-m']
+resposta_whats: div[class='_2et95 _3c94e _1dvTE']
+menu_whats: div[title='Mais opções']
+limpar_chat: div[title='Limpar mensagens']
+btn_clear: div[class='_30EVj gMRg5']
+txt_whats1: div[data-tab='6']
+btn_enviar1: span[data-testid='send']
+
+################# Altu ##################
+
+login_altu: input[id='email']
+senha_altu: input[id='password']
+botao_enviar_altu: button[type='submit']
+mensagem_bot: div[class='msg']
+mensagem_usuario: input[name='text-input']
+botao_enviar_chat: button[class='btn-send']

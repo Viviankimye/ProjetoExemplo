@@ -1,0 +1,14 @@
+dev:
+  site_a:
+  site_b:
+  uri_api:
+  site_bot_whats: 'https://web.whatsapp.com/'
+  
+hom:
+  site: 'https://ajudeopequeno.altu.com.br/widgets/preview/9a46fa5b10aef3eac4889fbdf2b23fba'
+  site_bot_whats: 'https://web.whatsapp.com/'
+  
+prod:
+  site_bot_altu_whats: ''
+  site_bot: ''
+  site_bot_whats: 'https://web.whatsapp.com/'
