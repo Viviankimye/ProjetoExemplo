@@ -1,17 +1,14 @@
 staging:
-  url_api: https://api.altu.com.br/ajudePequeno-staging/
+  url_api: https://api.altu.com.br/portoRamosElementaresWpp-staging/staging
   tempo: 60
-
 dev:
-  url_api: https://api.altu.com.br/ajudePequeno-dev/
+  url_api: https://api.altu.com.br/portoRamosElementaresWpp-dev/dev
   tempo: 60
-
 hom:
-  url_api: https://api.altu.com.br/ajudePequeno-hom/
-  tempo: 60
-
-prod:
   url_api: https://api.altu.com.br/ajudePequeno-prod/
   tempo: 60
-
+prod:
+  url_api: https://api.altu.com.br/portoRamosElementaresWpp-prod/prod
+  tempo: 60
 endpoint:
+  details_users: detalhes_user

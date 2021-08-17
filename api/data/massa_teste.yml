@@ -1,3 +1,5 @@
-numero_cpf: [01236547896]
-nome: 'Monica'
-email: "moniquinha@teste.com"
+#Cadastro1
+  Nome: Vivian
+  email_cadastrado: "email@mail.com"
+  email_ncadastrado: "tututr@gmail.com"
+  senha: testeteste

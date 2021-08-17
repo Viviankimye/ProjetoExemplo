@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Projeto-Exemplo - Data: 17/08, Hora: 11:50</title>
+
+  <link rel="icon" href="https://reportbuilder.rajatthareja.com/rb.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection"/>
+  <link href="https://cdn.rawgit.com/rajatthareja/ReportBuilder/v1.9/css/report.builder.min.css" rel="stylesheet">
+
+  
+</head>
+
+  <body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+
+<header class="blue lighten-5">
+  <div class="row blue lighten-1">
+    <div class="col m6 hide-on-small-only">
+      <h5 class="truncate white-text tooltipped" data-tooltip="Projeto-Exemplo - Data: 17/08, Hora: 11:50">Projeto-Exemplo - Data: 17/08, Hora: 11:50</h5>
+    </div>
+
+    <div class="col m6 s12 blue lighten-1">
+      <ul class="tabs blue lighten-1 row" style="overflow-x: hidden">
+        <li class="tab col s3">
+          <a class="blue lighten-3 active blue-text waves-effect waves-light tooltipped" data-tooltip="Results Overview" href="#overview"><i class="material-icons">assessment</i> Overview</a>
+        </li>
+        <li class="tab col s3">
+          <a class="blue lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios by Features" href="#features"><i class="material-icons">view_headline</i> Features</a>
+        </li>
+        <li class="tab col s3">
+          <a class="blue lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios Summary Table" href="#summary"><i class="material-icons">view_comfy</i> Summary</a>
+        </li>
+        <li class="tab col s3">
+          <a class="blue lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Failed Scenarios" href="#errors"><i class="material-icons">bug_report</i> Errors</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+
+    
+
+    
+    
+
+    
+    
+        
+        <div id="g0f0s0" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@cadastrar_email</div>
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@empresa_cadastrada</div>
+        
+    
+
+    <h5>realizar o cadastro da empresa do usuário. (0.152s)</h5>
+    features/email_valido.feature:7
+
+    
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step failed">
+  
+
+  <b>Dado </b> que realizo um cadastro da empresa (0.152s)
+
+  
+
+  
+
+  
+  
+  
+
+
+    
+    
+    
+    <pre>Status code na api detalhes_users: 403, mensagem: {&quot;message&quot;=&gt;&quot;Missing Authentication Token&quot;}, ERRO. (RuntimeError)
+./features/support/pages/Comum.rb:17:in `valida_status_code&#39;
+./features/support/pages/Comum.rb:37:in `test_get&#39;
+./features/step_definitions/email_valido.rb:5:in `&quot;que realizo um cadastro da empresa&quot;&#39;
+features/email_valido.feature:8:in `Dado que realizo um cadastro da empresa&#39;</pre>
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step skipped">
+  
+
+  <b>Entao </b> valido que foi cadastrado com sucesso (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f0s1" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@cadastrar_email</div>
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@empresa_ncadastrada</div>
+        
+    
+
+    <h5>validar a empresa nao cadastrada. (0.136s)</h5>
+    features/email_valido.feature:12
+
+    
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step failed">
+  
+
+  <b>Dado </b> que busco o cadastro da empresa nao cadastrada (0.136s)
+
+  
+
+  
+
+  
+  
+  
+
+
+    
+    
+    
+    <pre>Status code na api detalhes_users: 403, mensagem: {&quot;message&quot;=&gt;&quot;Missing Authentication Token&quot;}, ERRO. (RuntimeError)
+./features/support/pages/Comum.rb:17:in `valida_status_code&#39;
+./features/support/pages/Comum.rb:37:in `test_get&#39;
+./features/step_definitions/email_valido.rb:23:in `&quot;que busco o cadastro da empresa nao cadastrada&quot;&#39;
+features/email_valido.feature:13:in `Dado que busco o cadastro da empresa nao cadastrada&#39;</pre>
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step skipped">
+  
+
+  <b>Entao </b> valido que essa empresa nao foi cadastrado com sucesso (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        
+        $('#g0f0s0').modal();
+        
+        $('#g0f0s1').modal();
+        
+        $('#g0f0s2').modal();
+        
+    });
+</script>
+
+
+    <main class="blue lighten-5">
+      <div class="row">
+
+        <div id="overview" class="col s12 blue lighten-5">
+          <div class="row">
+  <div class="col m4 s12">
+    <canvas id="featuresDoughnut" width="400" height="400"></canvas>
+    <table id="metaDataFeatures" class="bordered">
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="col m4 s12">
+    <canvas id="scenariosDoughnut" width="400" height="400"></canvas>
+    <table id="metaDataScenarios" class="bordered">
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="col m4 s12">
+    <table id="metaData" class="bordered">
+      <tbody>
+      <tr><th>Total Time</th><td>0.287s</td></tr>
+      
+      </tbody>
+    </table>
+  </div>
+</div>
+
+        </div>
+
+        <div id="features" class="col s12 blue lighten-5 white-text">
+          <ul class="featureList collapsible popout" data-collapsible="expandable">
+  
+      
+      <li class="feature broken">
+  <div class="collapsible-header blue lighten-1 waves-effect waves-light">
+    <i class="material-icons">featured_play_list</i>
+    <b>Funcionalidade</b>&nbsp;Conseguir cadastrar a empresa do usuário no BOT.&nbsp;(0.287s)
+  </div>
+
+  <div class="collapsible-body blue lighten-4">
+    <div class="collection scenarioList blue">
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text failed" href="#g0f0s0">
+          <b>Cenario</b> realizar o cadastro da empresa do usuário.&nbsp;(0.152s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text failed" href="#g0f0s1">
+          <b>Cenario</b> validar a empresa nao cadastrada.&nbsp;(0.136s)
+        </a>
+      
+    </div>
+  </div>
+</li>
+
+  
+</ul>
+
+        </div>
+
+        <div id="summary" class="col s12 blue lighten-5">
+          <table id="summaryTable" class="bordered blue lighten-1 white-text" width="100%">
+  <thead>
+  <tr>
+    <th class="hide-on-small-only">Feature</th>
+    <th>Scenario</th>
+    <th class="hide">Tags</th>
+    <th>Status</th>
+
+
+    
+
+    <th class="hide-on-small-only">Error</th>
+  </tr>
+  </thead>
+  <tbody>
+  
+      
+          
+          <tr class="failed">
+            <td class="hide-on-small-only">
+  Conseguir cadastrar a empresa do usuário no BOT.
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f0s0">
+  realizar o cadastro da empresa do usuário.
+</td>
+
+<td class="hide">
+  
+      
+          @cadastrar_email. 
+      
+          @empresa_cadastrada. 
+      
+  
+</td>
+
+<td class="uppercase">
+  failed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+      Status code na api detalhes_users: 403, mensagem: {&quot;message&quot;=&gt;&quot;Missing Authentication Token&quot;}, ERRO. (RuntimeError)
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="failed">
+            <td class="hide-on-small-only">
+  Conseguir cadastrar a empresa do usuário no BOT.
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f0s1">
+  validar a empresa nao cadastrada.
+</td>
+
+<td class="hide">
+  
+      
+          @cadastrar_email. 
+      
+          @empresa_ncadastrada. 
+      
+  
+</td>
+
+<td class="uppercase">
+  failed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+      Status code na api detalhes_users: 403, mensagem: {&quot;message&quot;=&gt;&quot;Missing Authentication Token&quot;}, ERRO. (RuntimeError)
+  
+</td>
+
+          </tr>
+      
+  
+  </tbody>
+</table>
+
+        </div>
+
+        <div id="errors" class="col s12 blue lighten-5">
+          <ul class="errorList collapsible popout" data-collapsible="expandable">
+  
+      <li class="error">
+  <div class="collapsible-header red lighten-2 white-text waves-effect waves-light">
+    <i class="material-icons">bug_report</i>Status code na api detalhes_users: 403, mensagem: {&quot;message&quot;=&gt;&quot;Missing Authentication Token&quot;}, ERRO. (RuntimeError)
+  </div>
+
+  <div class="collapsible-body blue lighten-4">
+    <div class="collection failedScenarioList">
+      
+          
+              
+                  
+                      <a class="collection-item failedScenario blue lighten-5 red-text modal-trigger waves-effect waves-light" href="#g0f0s0">
+                        <i class="material-icons">highlight_off</i>&nbsp;realizar o cadastro da empresa do usuário.
+                      </a>
+                  
+              
+          
+              
+                  
+                      <a class="collection-item failedScenario blue lighten-5 red-text modal-trigger waves-effect waves-light" href="#g0f0s1">
+                        <i class="material-icons">highlight_off</i>&nbsp;validar a empresa nao cadastrada.
+                      </a>
+                  
+              
+          
+      
+    </div>
+  </div>
+</li>
+
+  
+</ul>
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer blue lighten-4">
+  <div class="footer-copyright blue lighten-1">
+    <div class="container">
+      Happy Reporting!
+      <a class="white-text text-lighten-4 right" href="https://reportbuilder.rajatthareja.com">Generated by Report Builder</a>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="https://cdn.rawgit.com/rajatthareja/ReportBuilder/v1.9/js/report.builder.min.js"></script>
+
+
+
+
+
+  </body>
+</html>

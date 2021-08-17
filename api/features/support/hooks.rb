@@ -5,7 +5,7 @@ at_exit do
     config.json_path = 'data/reports/report.json'
     config.report_path = "data/reports/report-#{$report_time}"
     config.report_types = [:html]
-    config.report_title = "Titulo do report - #{$report_title}"
+    config.report_title = "Projeto-Exemplo - #{$report_title}"
     config.color = 'blue'
     config.include_images = true
   end

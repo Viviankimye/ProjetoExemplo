@@ -1,0 +1,112 @@
+[
+  {
+    "uri": "features/cadastrar.feature",
+    "id": "cadastrar-o-email-usuário-no-bot.",
+    "keyword": "Funcionalidade",
+    "name": "Cadastrar o email usuário no BOT.",
+    "description": "",
+    "line": 4,
+    "tags": [
+      {
+        "name": "@cadastro_usuario",
+        "line": 3
+      }
+    ],
+    "comments": [
+      {
+        "value": "# encode: UTF-8",
+        "line": 2
+      }
+    ],
+    "elements": [
+      {
+        "id": "cadastrar-o-email-usuário-no-bot.;realizar-o-cadastro-do-usuario",
+        "keyword": "Cenario",
+        "name": "realizar o cadastro do usuario",
+        "description": "",
+        "line": 7,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@cadastro_usuario",
+            "line": 3
+          },
+          {
+            "name": "@usuario_cadastrado",
+            "line": 6
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que realizo um cadastro do usuario",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/cadastrar.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 238712500
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "valido que o usuario foi cadastrado com sucesso",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/cadastrar.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1629600
+            }
+          }
+        ]
+      },
+      {
+        "id": "cadastrar-o-email-usuário-no-bot.;validar-o-usuario-nao-cadastrada.",
+        "keyword": "Cenario",
+        "name": "validar o usuario nao cadastrada.",
+        "description": "",
+        "line": 12,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@cadastro_usuario",
+            "line": 3
+          },
+          {
+            "name": "@usuario_ncadastrado",
+            "line": 11
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que busco o cadastro do usuario nao cadastrado",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/cadastrar.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159282000
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "valido que este usuario nao foi cadastrado com sucesso",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/cadastrar.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 925700
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
